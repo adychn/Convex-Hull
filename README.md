@@ -5,15 +5,14 @@ Draw 2D and 3D convex hulls based on sets of randomized input points.
   <img src = 'images/3d_15.png', width=400>
 </p>
 
-## How to Run
+## How To Run
 1. pip install requirements.txt
 2. python main.py
 3. A set of randomized 2D and 3D points will be generated, and plotted on two figures, one for 2D and the other one for 3D.
 
 ## Usage and Information
-### File main.py 
-Contains unit testing functions and parameter configurations that perform randomized tests for 2D and 3D ConvexHull objects.
-
+### main.py 
+Run unit tests by adding randomized points into 2D and 3D ConvexHull objects.
 | Parameter Name  | Accepted Values | Description
 | ------------- | ------------- | ------------- |
 | numPointsToAdd  | int  | Number of randomized points to generate for the convex hull. |
@@ -27,17 +26,26 @@ Contains unit testing functions and parameter configurations that perform random
 | step  | int  | Randomized range step for the generate point. |
 | dimension  | '2d' or '3d' | Test the convex hull class in 2D or 3D setting. |
 
-### File ConvexHull.py 
-Contains classes of ConvexHull2D, ConvexHull3D, and Point. Call help(ConvexHull3D) in Python for more information.
+
+
+### ConvexHull.py 
+This Python file contains class of ConvexHull2D, ConvexHull3D, and Point.
+
+Below is an example of instantiating these objects.
 ```python
-a_2d_point = Point(1, 2)
-a_3d_point = Point(1, 2, 3)
-ch_2d = ConvexHull2D() # doesn't take any argument
-ch_3d = ConvexHull3D() # doesn't take any argument
-see main.py for more usage examples
+from ConvexHull import *
+a_2d_point = Point(1, 2)      # x = 1, y = 2, z = 0
+a_3d_point = Point(1, 2, 3)   # x = 1, y = 2, z = 3
+ch_2d = ConvexHull2D()        # doesn't take any argument
+ch_3d = ConvexHull3D()        # doesn't take any argument
+help(ConvexHull3D)            # more information in docstring
+ch_3d.add(a_3d_point)
+ch_3d.hull()
+print(ch_3d.within(a_2d_point)
+ch_3d.plot()
+# see main.py for more example usage
 ```
-#### Methods for ConvexHull2D and ConvexHull3D classes
-| Instance Method  | Parameters | Returns | Description
+| Instance Method of ConvexHull2D(and 3D) | Parameters | Returns | Description
 | ------------- | ------------- | ------------- | ------------- |
 | \_\_str\_\_  | None  | None | call print() on an instance will tell you its current points and hull points. |
 | add | a Point object | None | Add a Point object to the instance. |
@@ -54,7 +62,7 @@ Warning:
 2. To obtain an accurate convex hull after adding or removing Points, please call the hull method again. 
 ```
 
-## Example Runs
+## More Example Runs
 <p align='center'>
   <img src = 'images/2d_10.png', width=300>  
   <img src = 'images/2d_15.png', width=300>
