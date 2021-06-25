@@ -64,16 +64,16 @@ Warning:
 
 ## More Example Runs
 <p align='center'>
-  <img src = 'images/2d_10.png', width=300>  
-  <img src = 'images/2d_15.png', width=300>
-  <img src = 'images/2d_20.png', width=300>
-  <img src = 'images/2d_30.png', width=300>
-  <img src = 'images/2d_70.png', width=300>
-  <img src = 'images/2d_100.png', width=300>
-  <img src = 'images/3d_10.png', width=300>  
-  <img src = 'images/3d_15.png', width=300>
-  <img src = 'images/3d_20.png', width=300>
-  <img src = 'images/3d_30.png', width=300>
-  <img src = 'images/3d_70.png', width=300>
-  <img src = 'images/3d_100.png', width=300>
+  <img src = 'images/2d_10.png', width=350>  
+  <img src = 'images/2d_15.png', width=350>
+  <img src = 'images/2d_20.png', width=350>
+  <img src = 'images/2d_30.png', width=350>
+  <img src = 'images/2d_70.png', width=350>
+  <img src = 'images/2d_100.png', width=350>
+  <img src = 'images/3d_10.png', width=400>  
+  <img src = 'images/3d_15.png', width=400>
+  <img src = 'images/3d_20.png', width=400>
+  <img src = 'images/3d_30.png', width=400>
+  <img src = 'images/3d_70.png', width=400>
+  <img src = 'images/3d_100.png', width=400>
 </p>
