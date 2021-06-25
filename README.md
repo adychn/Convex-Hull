@@ -1,8 +1,8 @@
 # Convex-Hull
 Draw 2D and 3D convex hulls based on sets of randomized input points.
 <p align='center'>
-<img src = 'images/2d.png'>
-<img src = 'images/3d.png'>
+  <img src = 'images/2d_15.png', width=400>
+  <img src = 'images/3d_15.png', width=400>
 </p>
 
 ## How to Run
@@ -53,3 +53,19 @@ Warning:
 1. Add only Point object with x and y coordinates into a ConvexHull2D object.
 2. To obtain an accurate convex hull after adding or removing Points, please call the hull method again. 
 ```
+
+## Example Runs
+<p align='center'>
+  <img src = 'images/2d_10.png', width=300>  
+  <img src = 'images/2d_15.png', width=300>
+  <img src = 'images/2d_20.png', width=300>
+  <img src = 'images/2d_30.png', width=300>
+  <img src = 'images/2d_70.png', width=300>
+  <img src = 'images/2d_100.png', width=300>
+  <img src = 'images/3d_10.png', width=300>  
+  <img src = 'images/3d_15.png', width=300>
+  <img src = 'images/3d_20.png', width=300>
+  <img src = 'images/3d_30.png', width=300>
+  <img src = 'images/3d_70.png', width=300>
+  <img src = 'images/3d_100.png', width=300>
+</p>
